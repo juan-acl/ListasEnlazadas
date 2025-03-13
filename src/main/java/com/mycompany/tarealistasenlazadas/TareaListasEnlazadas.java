@@ -110,8 +110,8 @@ public class TareaListasEnlazadas {
         System.out.println("-----------v. Se inserta registro en cualquier posicion (posicion 14 )---------");
         System.out.println("\n");
         Producto nuevoProductoPosicion2 = new Producto();
-        nuevoProductoPosicion2.setIdentificador("SD-100");
-        nuevoProductoPosicion2.setNombre("Producto SD-100");
+        nuevoProductoPosicion2.setIdentificador("SD-101");
+        nuevoProductoPosicion2.setNombre("Producto SD-101");
         nuevoProductoPosicion2.setExistencia(21);
         listaEnlazadaProducto.insertarEnIndice(nuevoProductoPosicion2, 14);
         System.out.println("\n");
